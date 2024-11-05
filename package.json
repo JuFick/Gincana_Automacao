@@ -1,0 +1,21 @@
+{
+  "name": "swag_labs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/*.test.js --timeout 10000"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^10.8.2",
+    "selenium-webdriver": "^4.26.0"
+  }
+}
